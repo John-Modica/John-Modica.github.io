@@ -1,5 +1,6 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+# John Modica
+
+A personal portfolio about me.
 
 
 
