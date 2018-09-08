@@ -680,47 +680,6 @@
 	<script src="js/script.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<script>
-
-	$(document).ready(function () {
-	    //Disable full page
-	    $("body").on("contextmenu",function(e){
-	        return false;
-	    });
-    
-	    //Disable part of page
-	    $("#id").on("contextmenu",function(e){
-	        return false;
-	    });
-	});
-	</script>
-    	<script>
-
-	$(document).ready(function () {
-	    //Disable full page
-	    $('body').bind('cut copy paste', function (e) {
-	        e.preventDefault();
-	    });
-    
-	    //Disable part of page
-	    $('#id').bind('cut copy paste', function (e) {
-	        e.preventDefault();
-	    });
-	});
-	</script>
-	<script>
-	$(document).ready(function () {
-	    //Disable cut copy paste
-	    $('body').bind('cut copy paste', function (e) {
-	        e.preventDefault();
-	    });
-   
-	    //Disable mouse right click
-	    $("body").on("contextmenu",function(e){
-	        return false;
-	    });
-	});
-	</script>
 
 	<!-- GOOGLE MAPS DATA -->
     <script type="text/javascript">
@@ -762,6 +721,48 @@
       speed: 2000 // How many milliseconds until the next word show.
     });
     </script>
+
+	<script>
+
+	$(document).ready(function () {
+	    //Disable full page
+	    $("body").on("contextmenu",function(e){
+	        return false;
+	    });
+    
+	    //Disable part of page
+	    $("#id").on("contextmenu",function(e){
+	        return false;
+	    });
+	});
+	</script>
+    	<script>
+
+	$(document).ready(function () {
+	    //Disable full page
+	    $('body').bind('cut copy paste', function (e) {
+	        e.preventDefault();
+	    });
+    
+	    //Disable part of page
+	    $('#id').bind('cut copy paste', function (e) {
+	        e.preventDefault();
+	    });
+	});
+	</script>
+	<script>
+	$(document).ready(function () {
+	    //Disable cut copy paste
+	    $('body').bind('cut copy paste', function (e) {
+	        e.preventDefault();
+	    });
+   
+	    //Disable mouse right click
+	    $("body").on("contextmenu",function(e){
+	        return false;
+	    });
+	});
+	</script>
 	
     </body>
 </html>
